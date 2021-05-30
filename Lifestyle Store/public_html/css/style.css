@@ -1,0 +1,62 @@
+.panel{
+    margin-top: 45px;
+    overflow: auto;
+}
+#banner_image{
+    margin-top: 50px;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../../img/intro-bg_1.jpg) no-repeat center;
+    background-size: cover ;
+}
+#banner_content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+    margin-left: 200px;
+}
+.container-fluid{
+    margin-top: 50px;
+}
+.form-group{
+    margin-top: 15px;
+}
+.jumbotron{
+    margin-top: 75px;
+    background-color: rgb(201, 193, 193);
+}
+.caption{
+    text-align: center;
+}
+.table{
+    margin: auto;
+}
+.blank_row
+{
+    height: 35px !important; /* overwrites any other rules */
+    background-color: #FFFFFF;
+}
+
+#success{
+    position: absolute;
+    display: block;
+    margin-left: 35vh;
+    margin-right: 25vh;
+    margin-top: 25vh;
+}
+
+footer{
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #101010;
+    color:#9d9d9d;      
+}
