@@ -26,13 +26,14 @@
 <div id="banner_image">
     <div class="container">
         <div id="banner_content">
-        <?php
+        <!-- <?php
             if (isset($_SESSION['email'])){?>
                 <a href="products.php" class="btn btn-danger btn-lg active">Shop Now</a>
            <?php }
             else{?>
                 <a href="login.php" class="btn btn-danger btn-lg active">Shop Now</a>
-         <?php   }?>
+         <?php   }?> -->
+         <a href="products.php" class="btn btn-danger btn-lg active">Shop Now</a>
     
         </div>
     </div>
